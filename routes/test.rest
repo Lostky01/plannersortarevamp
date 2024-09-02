@@ -1,0 +1,12 @@
+# GET http://localhost:8000/api/events
+
+
+POST http://localhost:8000/event/store
+content-type: application/json
+
+{
+    "title": "Gakuen",
+    "description": "blablalbbsba",
+    "location": "Apa bae",
+    "date": "2024-08-29"
+}
